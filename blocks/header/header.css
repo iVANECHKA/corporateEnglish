@@ -1,0 +1,44 @@
+header {
+    max-width: 1376px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    align-items: center;
+    padding: 17px 0;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__logo {
+    font-family: 'Rostov', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color:#A1D56E;
+}
+
+.header__link {
+    margin: 0;
+    line-height: 29.05px;
+    margin-right: 32px;
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}
+
+.header__button {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 18px;
+    background-color: #A1D56E;
+}
